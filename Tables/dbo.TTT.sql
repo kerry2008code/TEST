@@ -27,6 +27,7 @@ CREATE TABLE [dbo].[TTT]
 [is_tracked_by_cdc] [bit] NULL,
 [lock_escalation] [tinyint] NULL,
 [lock_escalation_desc] [nvarchar] (60) COLLATE Latin1_General_CI_AS_KS_WS NULL,
-[is_filetable] [bit] NULL
+[is_filetable] [bit] NULL,
+[is_memory_optimized] [bit] NULL
 ) ON [PRIMARY]
 GO
